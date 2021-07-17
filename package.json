@@ -1,0 +1,33 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "Travelholic Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-validator": "^6.9.2",
+    "google-auth-library": "^7.0.4",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.10",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.6.1",
+    "nodemon": "^2.0.7",
+    "sharp": "^0.28.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {}
+}
